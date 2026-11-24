@@ -274,7 +274,7 @@ footer {
 }
 
 /* Penataan Fieldshet & Legend */
-.form-fieldshet {
+.form-fieldset {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 20px;
@@ -282,7 +282,7 @@ footer {
     background-color: #fafafa;
 }
 
-.form-fieldshet legend {
+.form-fieldset legend {
     font-weight: bold;
     color: var(--primary-color);
     padding: 0 10px;
@@ -308,10 +308,10 @@ footer {
 }
 
 /* Penataan Input Teks, Select, Date, dan Textarea */
-.form-group input [type="text"] ,
-.form-group input [type="email"] ,
-.form-group input [type="tel"] ,
-.form-group input [type="date"] ,
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
 .form-group select ,
 .form-group textarea {
     width: 100%;
@@ -363,7 +363,7 @@ footer {
 }
 
 /* Tombol Aksi (Kirim & Reset) */
-.form-action {
+.form-actions {
     display: flex;
     gap: 15px;
     margin-top: 20px;
